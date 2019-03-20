@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<TextView
+    android:text="PersonalDetails"
+    android:layout_gravity="center_horizontal"
+    android:textSize="30dp"
+    android:textColor="@color/colorPrimary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<EditText
+    android:id="@+id/name"
+    android:hint="Enter Name"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:hint="Address"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/email"
+        android:hint="E-mail"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/m_no"
+        android:hint="Mobile No"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_marginLeft="30dp"
+        android:id="@+id/save"
+        android:hint="Save"
+        android:layout_width="150dp"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/retrive"
+        android:text="Retrive"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textview"
+        android:text="name"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/next"
+        android:text="calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

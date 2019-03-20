@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Addition">
+    <EditText
+        android:id="@+id/fno"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter First number"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/sno"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Second number"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/tno"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter Third number"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/calculate"
+        android:text="Save"
+        android:layout_marginLeft="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/sum"
+            android:text="Sum and Retrive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:text="numbers"
+        android:id="@+id/numbers"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
